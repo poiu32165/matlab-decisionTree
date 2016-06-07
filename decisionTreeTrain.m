@@ -2,7 +2,7 @@ function [ tree ] = decisionTreeTrain( X, y)
 %use decision tree to implement classify
 % X: train data features
 % y: train label
-
+% 喔
 tree = struct('leaf',false,'condition','null','left','null','right','null','result','null');
 
 N = size(X, 1);
